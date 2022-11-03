@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "capi"
+			"path" : "my_assert_2"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 6,
+				"line" : 7,
 				"parent" : 0
 			}
 		]
@@ -35,7 +35,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk"
+					"fragment" : " -arch arm64"
 				},
 				{
 					"fragment" : "-std=gnu99"
@@ -56,15 +56,11 @@
 			]
 		}
 	],
-	"id" : "capi::@6890427a1f51a3e7e1df",
+	"id" : "my_assert_2::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
 		[
-			{
-				"fragment" : "-g",
-				"role" : "flags"
-			},
 			{
 				"fragment" : "",
 				"role" : "flags"
@@ -72,8 +68,8 @@
 		],
 		"language" : "C"
 	},
-	"name" : "capi",
-	"nameOnDisk" : "capi",
+	"name" : "my_assert_2",
+	"nameOnDisk" : "my_assert_2",
 	"paths" : 
 	{
 		"build" : ".",
@@ -94,7 +90,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "main.c",
+			"path" : "assert/my_assert_2.c",
 			"sourceGroupIndex" : 0
 		}
 	],
