@@ -48,7 +48,7 @@ build cmake_object_order_depends_target_my_assert_1: phony || CMakeFiles/my_asse
 
 build CMakeFiles/my_assert_1.dir/assert/my_assert_1.c.o: C_COMPILER__my_assert_1_Debug /Users/liode/MyTec/gitrepos/capi/assert/my_assert_1.c || cmake_object_order_depends_target_my_assert_1
   DEP_FILE = CMakeFiles/my_assert_1.dir/assert/my_assert_1.c.o.d
-  FLAGS = -arch arm64 -std=gnu99
+  FLAGS = -arch arm64 -std=gnu2x
   OBJECT_DIR = CMakeFiles/my_assert_1.dir
   OBJECT_FILE_DIR = CMakeFiles/my_assert_1.dir/assert
 
@@ -79,7 +79,7 @@ build cmake_object_order_depends_target_my_assert_2: phony || CMakeFiles/my_asse
 
 build CMakeFiles/my_assert_2.dir/assert/my_assert_2.c.o: C_COMPILER__my_assert_2_Debug /Users/liode/MyTec/gitrepos/capi/assert/my_assert_2.c || cmake_object_order_depends_target_my_assert_2
   DEP_FILE = CMakeFiles/my_assert_2.dir/assert/my_assert_2.c.o.d
-  FLAGS = -arch arm64 -std=gnu99
+  FLAGS = -arch arm64 -std=gnu2x
   OBJECT_DIR = CMakeFiles/my_assert_2.dir
   OBJECT_FILE_DIR = CMakeFiles/my_assert_2.dir/assert
 
@@ -98,6 +98,37 @@ build my_assert_2: C_EXECUTABLE_LINKER__my_assert_2_Debug CMakeFiles/my_assert_2
   PRE_LINK = :
   TARGET_FILE = my_assert_2
   TARGET_PDB = my_assert_2.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target my_limits_1
+
+
+#############################################
+# Order-only phony target for my_limits_1
+
+build cmake_object_order_depends_target_my_limits_1: phony || CMakeFiles/my_limits_1.dir
+
+build CMakeFiles/my_limits_1.dir/limits/my_limits_1.c.o: C_COMPILER__my_limits_1_Debug /Users/liode/MyTec/gitrepos/capi/limits/my_limits_1.c || cmake_object_order_depends_target_my_limits_1
+  DEP_FILE = CMakeFiles/my_limits_1.dir/limits/my_limits_1.c.o.d
+  FLAGS = -arch arm64 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/my_limits_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/my_limits_1.dir/limits
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target my_limits_1
+
+
+#############################################
+# Link the executable my_limits_1
+
+build my_limits_1: C_EXECUTABLE_LINKER__my_limits_1_Debug CMakeFiles/my_limits_1.dir/limits/my_limits_1.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/my_limits_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = my_limits_1
+  TARGET_PDB = my_limits_1.dbg
 
 
 #############################################
@@ -133,7 +164,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/liode/MyTec/gitrepos/capi/cmake-build-debug
 
-build all: phony my_assert_1 my_assert_2
+build all: phony my_assert_1 my_assert_2 my_limits_1
 
 # =============================================================================
 # Built-in targets

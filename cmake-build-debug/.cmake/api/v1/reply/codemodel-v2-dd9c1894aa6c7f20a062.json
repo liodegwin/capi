@@ -16,7 +16,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -32,7 +33,8 @@
 					"targetIndexes" : 
 					[
 						0,
-						1
+						1,
+						2
 					]
 				}
 			],
@@ -41,15 +43,22 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "my_assert_1::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-my_assert_1-Debug-905d8c8799c0d272cf4b.json",
+					"jsonFile" : "target-my_assert_1-Debug-c1d2368e558ee829014e.json",
 					"name" : "my_assert_1",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "my_assert_2::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-my_assert_2-Debug-6c933c6699068e7f4adc.json",
+					"jsonFile" : "target-my_assert_2-Debug-1e1d657801f378559575.json",
 					"name" : "my_assert_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_limits_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_limits_1-Debug-5b6bfced6eedb50a4ccf.json",
+					"name" : "my_limits_1",
 					"projectIndex" : 0
 				}
 			]
