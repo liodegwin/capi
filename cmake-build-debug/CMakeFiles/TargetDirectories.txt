@@ -1,5 +1,13 @@
 /Users/liode/MyTec/gitrepos/capi/cmake-build-debug/CMakeFiles/my_assert_1.dir
 /Users/liode/MyTec/gitrepos/capi/cmake-build-debug/CMakeFiles/my_assert_2.dir
 /Users/liode/MyTec/gitrepos/capi/cmake-build-debug/CMakeFiles/my_limits_1.dir
+/Users/liode/MyTec/gitrepos/capi/cmake-build-debug/CMakeFiles/my_stdio_fopen.dir
+/Users/liode/MyTec/gitrepos/capi/cmake-build-debug/CMakeFiles/my_stdio_freopen.dir
+/Users/liode/MyTec/gitrepos/capi/cmake-build-debug/CMakeFiles/my_stdio_read_1.dir
+/Users/liode/MyTec/gitrepos/capi/cmake-build-debug/CMakeFiles/my_stdio_write_1.dir
+/Users/liode/MyTec/gitrepos/capi/cmake-build-debug/CMakeFiles/my_stdio_getc.dir
+/Users/liode/MyTec/gitrepos/capi/cmake-build-debug/CMakeFiles/my_stdio_gets.dir
+/Users/liode/MyTec/gitrepos/capi/cmake-build-debug/CMakeFiles/my_time_1.dir
+/Users/liode/MyTec/gitrepos/capi/cmake-build-debug/CMakeFiles/my_ctype_1.dir
 /Users/liode/MyTec/gitrepos/capi/cmake-build-debug/CMakeFiles/edit_cache.dir
 /Users/liode/MyTec/gitrepos/capi/cmake-build-debug/CMakeFiles/rebuild_cache.dir

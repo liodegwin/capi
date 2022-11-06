@@ -1,0 +1,150 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "capi",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "my_assert_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_assert_1-Debug-c1d2368e558ee829014e.json",
+					"name" : "my_assert_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_assert_2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_assert_2-Debug-1e1d657801f378559575.json",
+					"name" : "my_assert_2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_ctype_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_ctype_1-Debug-2892c79788f73a6428ea.json",
+					"name" : "my_ctype_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_limits_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_limits_1-Debug-00836eb1551740e97acb.json",
+					"name" : "my_limits_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_stdio_fopen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_stdio_fopen-Debug-e98937a501bcf2a7541f.json",
+					"name" : "my_stdio_fopen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_stdio_freopen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_stdio_freopen-Debug-1ac341d3552662d68104.json",
+					"name" : "my_stdio_freopen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_stdio_getc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_stdio_getc-Debug-0af760269d72ffb814d7.json",
+					"name" : "my_stdio_getc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_stdio_gets::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_stdio_gets-Debug-b2fa83e82663f6d2b179.json",
+					"name" : "my_stdio_gets",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_stdio_read_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_stdio_read_1-Debug-ab260f7a9775cf58982e.json",
+					"name" : "my_stdio_read_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_stdio_write_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_stdio_write_1-Debug-8bb96dd2f8fa4e6397a4.json",
+					"name" : "my_stdio_write_1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "my_time_1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-my_time_1-Debug-99d582f53f76b4f7c350.json",
+					"name" : "my_time_1",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/liode/MyTec/gitrepos/capi/cmake-build-debug",
+		"source" : "/Users/liode/MyTec/gitrepos/capi"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

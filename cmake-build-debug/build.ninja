@@ -130,6 +130,254 @@ build my_limits_1: C_EXECUTABLE_LINKER__my_limits_1_Debug CMakeFiles/my_limits_1
   TARGET_FILE = my_limits_1
   TARGET_PDB = my_limits_1.dbg
 
+# =============================================================================
+# Object build statements for EXECUTABLE target my_stdio_fopen
+
+
+#############################################
+# Order-only phony target for my_stdio_fopen
+
+build cmake_object_order_depends_target_my_stdio_fopen: phony || CMakeFiles/my_stdio_fopen.dir
+
+build CMakeFiles/my_stdio_fopen.dir/stdio/my_stdio_fopen.c.o: C_COMPILER__my_stdio_fopen_Debug /Users/liode/MyTec/gitrepos/capi/stdio/my_stdio_fopen.c || cmake_object_order_depends_target_my_stdio_fopen
+  DEP_FILE = CMakeFiles/my_stdio_fopen.dir/stdio/my_stdio_fopen.c.o.d
+  FLAGS = -arch arm64 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/my_stdio_fopen.dir
+  OBJECT_FILE_DIR = CMakeFiles/my_stdio_fopen.dir/stdio
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target my_stdio_fopen
+
+
+#############################################
+# Link the executable my_stdio_fopen
+
+build my_stdio_fopen: C_EXECUTABLE_LINKER__my_stdio_fopen_Debug CMakeFiles/my_stdio_fopen.dir/stdio/my_stdio_fopen.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/my_stdio_fopen.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = my_stdio_fopen
+  TARGET_PDB = my_stdio_fopen.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target my_stdio_freopen
+
+
+#############################################
+# Order-only phony target for my_stdio_freopen
+
+build cmake_object_order_depends_target_my_stdio_freopen: phony || CMakeFiles/my_stdio_freopen.dir
+
+build CMakeFiles/my_stdio_freopen.dir/stdio/my_stdio_freopen.c.o: C_COMPILER__my_stdio_freopen_Debug /Users/liode/MyTec/gitrepos/capi/stdio/my_stdio_freopen.c || cmake_object_order_depends_target_my_stdio_freopen
+  DEP_FILE = CMakeFiles/my_stdio_freopen.dir/stdio/my_stdio_freopen.c.o.d
+  FLAGS = -arch arm64 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/my_stdio_freopen.dir
+  OBJECT_FILE_DIR = CMakeFiles/my_stdio_freopen.dir/stdio
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target my_stdio_freopen
+
+
+#############################################
+# Link the executable my_stdio_freopen
+
+build my_stdio_freopen: C_EXECUTABLE_LINKER__my_stdio_freopen_Debug CMakeFiles/my_stdio_freopen.dir/stdio/my_stdio_freopen.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/my_stdio_freopen.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = my_stdio_freopen
+  TARGET_PDB = my_stdio_freopen.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target my_stdio_read_1
+
+
+#############################################
+# Order-only phony target for my_stdio_read_1
+
+build cmake_object_order_depends_target_my_stdio_read_1: phony || CMakeFiles/my_stdio_read_1.dir
+
+build CMakeFiles/my_stdio_read_1.dir/stdio/my_stdio_read_1.c.o: C_COMPILER__my_stdio_read_1_Debug /Users/liode/MyTec/gitrepos/capi/stdio/my_stdio_read_1.c || cmake_object_order_depends_target_my_stdio_read_1
+  DEP_FILE = CMakeFiles/my_stdio_read_1.dir/stdio/my_stdio_read_1.c.o.d
+  FLAGS = -arch arm64 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/my_stdio_read_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/my_stdio_read_1.dir/stdio
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target my_stdio_read_1
+
+
+#############################################
+# Link the executable my_stdio_read_1
+
+build my_stdio_read_1: C_EXECUTABLE_LINKER__my_stdio_read_1_Debug CMakeFiles/my_stdio_read_1.dir/stdio/my_stdio_read_1.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/my_stdio_read_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = my_stdio_read_1
+  TARGET_PDB = my_stdio_read_1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target my_stdio_write_1
+
+
+#############################################
+# Order-only phony target for my_stdio_write_1
+
+build cmake_object_order_depends_target_my_stdio_write_1: phony || CMakeFiles/my_stdio_write_1.dir
+
+build CMakeFiles/my_stdio_write_1.dir/stdio/my_stdio_write_1.c.o: C_COMPILER__my_stdio_write_1_Debug /Users/liode/MyTec/gitrepos/capi/stdio/my_stdio_write_1.c || cmake_object_order_depends_target_my_stdio_write_1
+  DEP_FILE = CMakeFiles/my_stdio_write_1.dir/stdio/my_stdio_write_1.c.o.d
+  FLAGS = -arch arm64 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/my_stdio_write_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/my_stdio_write_1.dir/stdio
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target my_stdio_write_1
+
+
+#############################################
+# Link the executable my_stdio_write_1
+
+build my_stdio_write_1: C_EXECUTABLE_LINKER__my_stdio_write_1_Debug CMakeFiles/my_stdio_write_1.dir/stdio/my_stdio_write_1.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/my_stdio_write_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = my_stdio_write_1
+  TARGET_PDB = my_stdio_write_1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target my_stdio_getc
+
+
+#############################################
+# Order-only phony target for my_stdio_getc
+
+build cmake_object_order_depends_target_my_stdio_getc: phony || CMakeFiles/my_stdio_getc.dir
+
+build CMakeFiles/my_stdio_getc.dir/stdio/my_stdio_fgetc.c.o: C_COMPILER__my_stdio_getc_Debug /Users/liode/MyTec/gitrepos/capi/stdio/my_stdio_fgetc.c || cmake_object_order_depends_target_my_stdio_getc
+  DEP_FILE = CMakeFiles/my_stdio_getc.dir/stdio/my_stdio_fgetc.c.o.d
+  FLAGS = -arch arm64 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/my_stdio_getc.dir
+  OBJECT_FILE_DIR = CMakeFiles/my_stdio_getc.dir/stdio
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target my_stdio_getc
+
+
+#############################################
+# Link the executable my_stdio_getc
+
+build my_stdio_getc: C_EXECUTABLE_LINKER__my_stdio_getc_Debug CMakeFiles/my_stdio_getc.dir/stdio/my_stdio_fgetc.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/my_stdio_getc.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = my_stdio_getc
+  TARGET_PDB = my_stdio_getc.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target my_stdio_gets
+
+
+#############################################
+# Order-only phony target for my_stdio_gets
+
+build cmake_object_order_depends_target_my_stdio_gets: phony || CMakeFiles/my_stdio_gets.dir
+
+build CMakeFiles/my_stdio_gets.dir/stdio/my_stdio_fgets.c.o: C_COMPILER__my_stdio_gets_Debug /Users/liode/MyTec/gitrepos/capi/stdio/my_stdio_fgets.c || cmake_object_order_depends_target_my_stdio_gets
+  DEP_FILE = CMakeFiles/my_stdio_gets.dir/stdio/my_stdio_fgets.c.o.d
+  FLAGS = -arch arm64 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/my_stdio_gets.dir
+  OBJECT_FILE_DIR = CMakeFiles/my_stdio_gets.dir/stdio
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target my_stdio_gets
+
+
+#############################################
+# Link the executable my_stdio_gets
+
+build my_stdio_gets: C_EXECUTABLE_LINKER__my_stdio_gets_Debug CMakeFiles/my_stdio_gets.dir/stdio/my_stdio_fgets.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/my_stdio_gets.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = my_stdio_gets
+  TARGET_PDB = my_stdio_gets.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target my_time_1
+
+
+#############################################
+# Order-only phony target for my_time_1
+
+build cmake_object_order_depends_target_my_time_1: phony || CMakeFiles/my_time_1.dir
+
+build CMakeFiles/my_time_1.dir/time/my_time_1.c.o: C_COMPILER__my_time_1_Debug /Users/liode/MyTec/gitrepos/capi/time/my_time_1.c || cmake_object_order_depends_target_my_time_1
+  DEP_FILE = CMakeFiles/my_time_1.dir/time/my_time_1.c.o.d
+  FLAGS = -arch arm64 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/my_time_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/my_time_1.dir/time
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target my_time_1
+
+
+#############################################
+# Link the executable my_time_1
+
+build my_time_1: C_EXECUTABLE_LINKER__my_time_1_Debug CMakeFiles/my_time_1.dir/time/my_time_1.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/my_time_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = my_time_1
+  TARGET_PDB = my_time_1.dbg
+
+# =============================================================================
+# Object build statements for EXECUTABLE target my_ctype_1
+
+
+#############################################
+# Order-only phony target for my_ctype_1
+
+build cmake_object_order_depends_target_my_ctype_1: phony || CMakeFiles/my_ctype_1.dir
+
+build CMakeFiles/my_ctype_1.dir/ctype/my_ctype_1.c.o: C_COMPILER__my_ctype_1_Debug /Users/liode/MyTec/gitrepos/capi/ctype/my_ctype_1.c || cmake_object_order_depends_target_my_ctype_1
+  DEP_FILE = CMakeFiles/my_ctype_1.dir/ctype/my_ctype_1.c.o.d
+  FLAGS = -arch arm64 -std=gnu2x
+  OBJECT_DIR = CMakeFiles/my_ctype_1.dir
+  OBJECT_FILE_DIR = CMakeFiles/my_ctype_1.dir/ctype
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target my_ctype_1
+
+
+#############################################
+# Link the executable my_ctype_1
+
+build my_ctype_1: C_EXECUTABLE_LINKER__my_ctype_1_Debug CMakeFiles/my_ctype_1.dir/ctype/my_ctype_1.c.o
+  FLAGS = -arch arm64
+  OBJECT_DIR = CMakeFiles/my_ctype_1.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = my_ctype_1
+  TARGET_PDB = my_ctype_1.dbg
+
 
 #############################################
 # Utility command for edit_cache
@@ -164,7 +412,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 #############################################
 # Folder: /Users/liode/MyTec/gitrepos/capi/cmake-build-debug
 
-build all: phony my_assert_1 my_assert_2 my_limits_1
+build all: phony my_assert_1 my_assert_2 my_limits_1 my_stdio_fopen my_stdio_freopen my_stdio_read_1 my_stdio_write_1 my_stdio_getc my_stdio_gets my_time_1 my_ctype_1
 
 # =============================================================================
 # Built-in targets
